@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:maxLevel="10"
+        android:minLevel="0">
+        <shape
+            android:shape="rectangle"
+            android:useLevel="true">
+            <size android:height="20dp"
+                android:width="20dp"/>
+            <solid android:color="#8C8C8C" />
+            <corners android:radius="40dp" />
+        </shape>
+    </item>
+    <item
+        android:maxLevel="30"
+        android:minLevel="20">
+        <shape
+            android:shape="rectangle"
+            android:useLevel="true">
+            <size android:height="20dp"
+                android:width="20dp"/>
+            <solid android:color="#00EE00" />
+            <corners android:radius="40dp" />
+        </shape>
+    </item>
+    <item
+        android:maxLevel="50"
+        android:minLevel="40">
+        <shape
+            android:shape="rectangle"
+            android:useLevel="true">
+            <size android:height="20dp"
+                android:width="20dp"/>
+            <solid android:color="#EE0000" />
+            <corners android:radius="40dp" />
+        </shape>
+    </item>
+</level-list>

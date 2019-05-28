@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hy.spyx.GameActivity">
+    <item
+        android:id="@+id/end_game"
+        android:icon="@drawable/ic_action_end"
+        app:showAsAction="always"
+        android:title="结束游戏"/>
+</menu>

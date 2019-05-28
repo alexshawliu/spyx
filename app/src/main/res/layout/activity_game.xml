@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/rtxt1"
+        android:text="@string/round1"
+        style="@style/roundtxt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rtxt2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline_begin"/>
+
+    <TextView
+        android:id="@+id/rtxt2"
+        android:text="@string/round2"
+        style="@style/roundtxt"
+        app:layout_constraintLeft_toRightOf="@id/rtxt1"
+        app:layout_constraintRight_toLeftOf="@id/rtxt3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline_begin"/>
+
+    <TextView
+        android:id="@+id/rtxt3"
+        android:text="@string/round3"
+        style="@style/roundtxt"
+        app:layout_constraintLeft_toRightOf="@id/rtxt2"
+        app:layout_constraintRight_toLeftOf="@id/rtxt4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline_begin"/>
+
+    <TextView
+        android:id="@+id/rtxt4"
+        android:text="@string/round4"
+        style="@style/roundtxt"
+        app:layout_constraintLeft_toRightOf="@id/rtxt3"
+        app:layout_constraintRight_toLeftOf="@id/rtxt5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline_begin"/>
+
+    <TextView
+        android:id="@+id/rtxt5"
+        android:text="@string/round5"
+        style="@style/roundtxt"
+        app:layout_constraintLeft_toRightOf="@id/rtxt4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline_begin"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_begin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <ImageView
+        android:id="@+id/rimg1"
+        android:contentDescription="@null"
+        style="@style/roundimg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/rimg2"
+        app:layout_constraintTop_toBottomOf="@id/guideline_begin"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"/>
+
+    <ImageView
+        android:id="@+id/rimg2"
+        android:contentDescription="@null"
+        style="@style/roundimg"
+        app:layout_constraintLeft_toRightOf="@id/rimg1"
+        app:layout_constraintRight_toLeftOf="@id/rimg3"
+        app:layout_constraintTop_toBottomOf="@id/guideline_begin"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"/>
+
+    <ImageView
+        android:id="@+id/rimg3"
+        android:contentDescription="@null"
+        style="@style/roundimg"
+        app:layout_constraintLeft_toRightOf="@id/rimg2"
+        app:layout_constraintRight_toLeftOf="@id/rimg4"
+        app:layout_constraintTop_toBottomOf="@id/guideline_begin"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"/>
+
+    <ImageView
+        android:id="@+id/rimg4"
+        android:contentDescription="@null"
+        style="@style/roundimg"
+        app:layout_constraintLeft_toRightOf="@id/rimg3"
+        app:layout_constraintRight_toLeftOf="@id/rimg5"
+        app:layout_constraintTop_toBottomOf="@id/guideline_begin"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"/>
+
+    <ImageView
+        android:id="@+id/rimg5"
+        android:contentDescription="@null"
+        style="@style/roundimg"
+        app:layout_constraintLeft_toRightOf="@id/rimg4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_begin"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="50dp" />
+
+    <ImageView
+        android:id="@+id/nation1"
+        android:contentDescription="@null"
+        style="@style/nationflag"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nation2"
+        app:layout_constraintTop_toBottomOf="@id/guideline1"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"/>
+
+    <ImageView
+        android:id="@+id/nation2"
+        android:contentDescription="@null"
+        style="@style/nationflag"
+        app:layout_constraintLeft_toRightOf="@id/nation1"
+        app:layout_constraintRight_toLeftOf="@id/nation3"
+        app:layout_constraintTop_toBottomOf="@id/guideline1"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"/>
+
+    <ImageView
+        android:id="@+id/nation3"
+        android:contentDescription="@null"
+        style="@style/nationflag"
+        app:layout_constraintLeft_toRightOf="@id/nation2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline1"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="100dp" />
+
+    <TextView
+        android:id="@+id/name1"
+        style="@style/nationtxt"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/name2"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"/>
+
+    <TextView
+        android:id="@+id/name2"
+        style="@style/nationtxt"
+        app:layout_constraintLeft_toRightOf="@id/name1"
+        app:layout_constraintRight_toLeftOf="@id/name3"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"/>
+
+    <TextView
+        android:id="@+id/name3"
+        style="@style/nationtxt"
+        app:layout_constraintLeft_toRightOf="@id/name2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline2"
+        app:layout_constraintBottom_toTopOf="@id/guideline3"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="120dp" />
+
+    <ImageView
+        android:id="@+id/nation4"
+        android:contentDescription="@null"
+        style="@style/nationflag"
+        app:layout_constraintBottom_toTopOf="@id/guideline4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/nation5"
+        app:layout_constraintTop_toBottomOf="@+id/guideline3" />
+
+    <ImageView
+        android:id="@+id/nation5"
+        android:contentDescription="@null"
+        style="@style/nationflag"
+        app:layout_constraintBottom_toTopOf="@id/guideline4"
+        app:layout_constraintLeft_toRightOf="@id/nation4"
+        app:layout_constraintRight_toLeftOf="@id/nation6"
+        app:layout_constraintTop_toBottomOf="@id/guideline3" />
+
+    <ImageView
+        android:id="@+id/nation6"
+        android:contentDescription="@null"
+        style="@style/nationflag"
+        app:layout_constraintBottom_toTopOf="@id/guideline4"
+        app:layout_constraintLeft_toRightOf="@id/nation5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline3" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="170dp" />
+
+    <TextView
+        android:id="@+id/name4"
+        style="@style/nationtxt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/name5"
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
+
+    <TextView
+        android:id="@+id/name5"
+        style="@style/nationtxt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toRightOf="@id/name4"
+        app:layout_constraintRight_toLeftOf="@id/name6"
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
+
+    <TextView
+        android:id="@+id/name6"
+        style="@style/nationtxt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintLeft_toRightOf="@id/name5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="190dp" />
+
+    <ListView
+        android:id="@+id/process"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:isScrollContainer="true"
+        android:transcriptMode="alwaysScroll"
+        app:layout_constraintBottom_toTopOf="@id/guideline_end"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline5"></ListView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="45dp" />
+
+    <TextView
+        android:id="@+id/clues"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_end" />
+
+</android.support.constraint.ConstraintLayout>

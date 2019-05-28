@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">跨国追踪</string>
+    <string name="round1">第一轮</string>
+    <string name="round2">第二轮</string>
+    <string name="round3">第三轮</string>
+    <string name="round4">第四轮</string>
+    <string name="round5">第五轮</string>
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/capital"
+        android:title="首都">
+        <menu>
+            <item android:id="@+id/q1"
+                android:title="首都是否是最大城市"/>
+        </menu>
+    </item>
+    <item android:id="@+id/drive"
+        android:title="行驶方向">
+        <menu>
+            <item android:id="@+id/q2"
+                android:title="行驶方向在左边还是右边"/>
+        </menu>
+    </item>
+    <item android:id="@+id/area"
+        android:title="面积">
+        <menu>
+            <item android:id="@+id/q3"
+            android:title="国家的国土面积"/>
+        </menu>
+    </item>
+    <item android:id="@+id/population"
+        android:title="人口">
+        <menu>
+            <item android:id="@+id/q4"
+                android:title="国家的人口数量"/>
+        </menu>
+    </item>
+    <item android:id="@+id/regime"
+        android:title="政体">
+        <menu>
+            <item android:id="@+id/q5"
+                android:title="是否为君主制政体国家"/>
+            <item android:id="@+id/q6"
+                android:title="是否为共和制政体国家"/>
+        </menu>
+    </item>
+    <item android:id="@+id/peek"
+        android:title="最高峰">
+        <menu>
+            <item android:id="@+id/q7"
+                android:title="境内最高峰的海拔(米)"/>
+        </menu>
+    </item>
+    <item android:id="@+id/gdp"
+        android:title="GDP">
+        <menu>
+            <item android:id="@+id/q23"
+                android:title="国内生产总值"/>
+        </menu>
+    </item>
+    <item android:id="@+id/industry"
+        android:title="工业">
+        <menu>
+            <item android:id="@+id/q8"
+                android:title="国内最大的工业"/>
+        </menu>
+    </item>
+    <item android:id="@+id/agriculture"
+        android:title="农业">
+        <menu>
+            <item android:id="@+id/q9"
+                android:title="国内最主要的农业"/>
+        </menu>
+    </item>
+    <item android:id="@+id/export"
+        android:title="出口">
+        <menu>
+            <item android:id="@+id/q10"
+                android:title="国内最主要的出口产品"/>
+        </menu>
+    </item>
+    <item android:id="@+id/religion"
+        android:title="宗教">
+        <menu>
+            <item android:id="@+id/q11"
+                android:title="国内最大的宗教是否为基督教"/>
+            <item android:id="@+id/q12"
+                android:title="国内最大的宗教是否为伊斯兰教"/>
+            <item android:id="@+id/q13"
+                android:title="国内最大的宗教是否为佛教"/>
+        </menu>
+    </item>
+    <item android:id="@+id/coast"
+        android:title="海岸">
+        <menu>
+            <item android:id="@+id/q14"
+                android:title="国家是否有海岸线"/>
+        </menu>
+    </item>
+    <item android:id="@+id/history"
+        android:title="历史">
+        <menu>
+            <item android:id="@+id/q15"
+                android:title="国家的历史信息"/>
+        </menu>
+    </item>
+    <item android:id="@+id/language"
+        android:title="语言">
+        <menu>
+            <item android:id="@+id/q16"
+                android:title="英语是否为官方语言"/>
+            <item android:id="@+id/q17"
+                android:title="法语是否为官方语言"/>
+            <item android:id="@+id/q18"
+                android:title="西班牙语是否为官方语言"/>
+        </menu>
+    </item>
+    <item android:id="@+id/currency"
+        android:title="货币">
+        <menu>
+            <item android:id="@+id/q19"
+                android:title="美元是否为流通货币"/>
+            <item android:id="@+id/q20"
+                android:title="欧元是否为流通货币"/>
+            <item android:id="@+id/q21"
+                android:title="法郎是否为流通货币"/>
+        </menu>
+    </item>
+    <item android:id="@+id/neighbor"
+        android:title="邻国">
+        <menu>
+            <item android:id="@+id/q22"
+                android:title="接壤的国家数量"/>
+        </menu>
+    </item>
+    <item android:id="@+id/restart"
+        android:title="再来一局">
+    </item>
+</menu>

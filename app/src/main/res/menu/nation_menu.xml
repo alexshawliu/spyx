@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/arrest"
+        android:icon="@drawable/ic_action_arrest"
+        android:title="发起逮捕"/>
+    <item android:id="@+id/exclude"
+        android:icon="@drawable/ic_action_remove"
+        android:title="排除嫌疑"/>
+</menu>
